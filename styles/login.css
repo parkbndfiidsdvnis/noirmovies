@@ -1,0 +1,65 @@
+body {
+    background-color: #000; /* Đặt nền màu đen */
+    color: #FFD700; /* Đặt màu chữ là vàng */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #222; /* Màu nền của container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #FFD700;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #FFD700; /* Màu viền của input */
+    border-radius: 5px;
+    background-color: #333; /* Màu nền của input */
+    color: #FFD700; /* Màu chữ của input */
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700; /* Màu nền của nút */
+    color: #000; /* Màu chữ của nút */
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFC107; /* Màu nền khi di chuột qua nút */
+}
+
+.signup-box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-box span {
+    color: #FFD700;
+}
+
+.signup-box a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}
